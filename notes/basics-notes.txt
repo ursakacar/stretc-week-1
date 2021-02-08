@@ -1,0 +1,40 @@
+console.time('hello')
+/* how long this block of code needed to execute */
+console.timeEnd('hello')
+
+
+var stay away from it, old way
+
+let
+
+const is a constant, it can not be reassigned (but if it's an object, or an array, we can manipulate it, change it, just not redeclare it)
+
+The main difference is the scope difference:
+* let & const can be only available inside the scope it's declared
+* var can be accessed outside the loop
+
+
+Primitive data types are stored directly in the location the variable accesses, stored on the stack:
+* string
+* number
+* boolean
+* null
+* undefined
+* symbols ES6
+
+Reference data types are accessed by references, objects that are stored on the heap, a pointer to a location in memory
+* arrays
+* object literals
+* functions
+* dates
+* anything else
+
+JS is dynamically typed
+* types associated with values, not variables
+* the same variable can hold multiple types, no need to specify the type
+
+type of null is object
+
+Template literals has backticks ``
+
+Window object
